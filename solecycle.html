@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoleCycle</title>
+  <link rel="stylesheet" href="solecycle.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Nav -->
+  <nav class="navbar">
+  <div class="logo">SoleCycle</div>
+  
+  <!-- Hamburger -->
+  <div class="hamburger" id="hamburger">
+    ☰
+  </div>
+
+  <!-- Links -->
+  <div class="nav-links" id="nav-links">
+    <a href="#whatwedo">What We Do</a>
+    <a href="#founders">Founders</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="https://docs.google.com/document/d/1rh81Pz-XPFpXAFdEJv4_Uu-a58Ijf8q7geVNLVJiQUY/edit?tab=t.0" class="btn">Get Started</a>
+  </div>
+</nav>
+
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Giving New Life to Shoes</h1>
+      <p>Recycling footwear, restoring dignity, and reducing waste.</p>
+      <a href="https://docs.google.com/document/d/1rh81Pz-XPFpXAFdEJv4_Uu-a58Ijf8q7geVNLVJiQUY/edit?tab=t.0" class="btn">Join Us</a>
+    </div>
+  </header>
+
+  <!-- What We Do -->
+  <section id="whatwedo" class="section two-col">
+    <div class="text">
+      <h2>What We Do</h2>
+      <p>
+        SoleCycle organizes shoe drives to collect new and gently-used shoes. 
+        We donate them locally in Canton, Michigan, and abroad in Guatemela to those in need, ensuring comfort, dignity, 
+        and opportunity for every step. We are a registered state-certified non-profit organization.
+      </p>
+      <br>
+      <p>To date, we have collected and donated over <b>6,000</b> shoes, including having donated to 5+ separate villages in Guatemala, each with separate needs for different footwear and types of shoes!</p>
+    </div>
+    <div class="image">
+      <img src="shoe 1.jpg" alt="Shoes illustration" />
+    </div>
+  </section>
+
+  <!-- Us -->
+  <section id="founders" class="section light-bg">
+    <h2>Our Founders</h2>
+    <div class="founder-grid">
+      <div class="card">
+        <img src="a6efab2a-2fdb-4724-b0d2-d66da91ce8af.JPG" alt="Angad Chauhan" />
+        <h3>Angad Chauhan</h3>
+        <p>Plymouth High School Class of 2026</p>
+      </div>
+      <div class="card">
+        <img src="Screenshot 2025-09-01 152359.png" alt="Ayush Patel" />
+        <h3>Ayush Patel</h3>
+        <p>Salem High School Class of 2026</p>
+      </div>
+      <div class="card">
+        <img src="IMG_7011.jpeg" alt="Armaan Grewal" />
+        <h3>Armaan Grewal</h3>
+        <p>Plymouth High School Class of 2026</p>
+      </div>
+      <div class="card">
+        <img src="Screenshot 2025-09-01 151140.png" alt="Rudra Patel" />
+        <h3>Rudra Patel</h3>
+        <p>Salem High School Class of 2026</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- Photos -->
+  <section id="gallery" class="section light-bg">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="IMG_6966.jpg" alt="Shoes" class="gallery-item" />
+      <img src="IMG_6970.jpg" alt="Shoes" class="gallery-item" />
+      <img src="IMG_7022.jpg" alt="Shoes" class="gallery-item" />
+      <img src="IMG_7025.jpg" alt="Shoes" class="gallery-item" />
+      <img src="IMG_7026.jpg" alt="Shoes" class="gallery-item" />
+      <img src="Screenshot 2025-09-01 143524.png" alt="Shoes" class="gallery-item" />
+      <img src="IMG_7179.jpg" alt="Shoes" class="gallery-item" />
+      <img src="IMG_7745.jpeg" alt="Shoes" class="gallery-item" />
+      <img src="IMG_7330.jpeg" alt="Shoes" class="gallery-item" />
+      <img src="IMG_7333.jpeg" alt="Shoes" class="gallery-item" />
+      <img src="IMG_8773.jpeg" alt="Shoes" class="gallery-item" />
+      <img src="IMG_8777.jpeg" alt="Shoes" class="gallery-item" />
+      <img src="IMG_7322.jpeg" alt="Shoes" class="gallery-item" />
+      <img src="IMG_7323.jpeg" alt="Shoes" class="gallery-item" />
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" />
+  </div>
+
+
+  <!-- Contact -->
+  <section id="contact" class="section two-col">
+    <div class="image">
+      <img src="IMG_7244.jpeg" alt="Contact illustration" />
+    </div>
+    <div class="text">
+      <h2>Contact Us</h2>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="85c2e66c-947b-4714-99eb-4d0522d2e530">
+                <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-input" required>
+                <textarea type="message" name="Message" placeholder="Your Message" class="contact-input" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SoleCycle | All Rights Reserved</p>
+  </footer>
+
+  <script src="solecycle.js"></script>
+
+</body>
+</html>
